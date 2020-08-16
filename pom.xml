@@ -2,7 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ds.design.prep</groupId>
   <artifactId>ds-design-prep</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
@@ -15,5 +16,8 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>coffee-maker</module>
+    </modules>
     <name>desprep</name>
 </project>
