@@ -18,6 +18,7 @@
     </build>
     <modules>
         <module>coffee-maker</module>
+        <module>api-rate-limiter</module>
     </modules>
     <name>desprep</name>
 </project>
